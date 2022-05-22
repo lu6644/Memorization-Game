@@ -3,4 +3,4 @@ For this project, our goal is to build a game app to improve the user’s memori
 
 ### Code
 <strong>All the code is included in the <ins>"MemorizationGame" folder</ins></strong>.
-We built the android app by android studio.
+We built this android app via android studio.
