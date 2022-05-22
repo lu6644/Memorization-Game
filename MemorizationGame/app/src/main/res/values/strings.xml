@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Memorization Game</string>
+    <string name="sign_up">SiGN UP</string>
+    <string name="new_account">New Account</string>
+    <string name="login">Login</string>
+    <string name="new_username">New Username</string>
+    <string name="new_password">New Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="please_input_a_username">Please input a username</string>
+    <string name="please_input_a_password">Please input a password</string>
+    <string name="please_confirm_your_password">Please confirm your password</string>
+    <string name="to_input_rank">to input rank</string>
+    <string name="to_input_name">to input name</string>
+    <string name="start">START</string>
+    <string name="completed_rounds">Completed Rounds:</string>
+    <string name="exit">EXIT</string>
+    <string name="textview">TextView</string>
+    <string name="done">DONE</string>
+    <string name="yours_selections">YOURS SELECTIONS</string>
+</resources>
