@@ -8,10 +8,10 @@ The purpose of this repository is to explore enhancements and improvements to th
 
 ## Planned Improvements
 
-### 1. Introducing Database and ultilize RoomDB as an abstraction
-### 2. Refining UI Implementation
-### 3. Employ Layered and MVVM Architecture
-### 4. Enhance Authentication
+1. Introducing Database and ultilize RoomDB as an abstraction
+2. Refining UI Implementation
+3. Employ Layered and MVVM Architecture
+4. Enhance Authentication
 
 ## Acknowledgments
 
