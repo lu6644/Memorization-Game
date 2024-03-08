@@ -1,12 +1,25 @@
 package com.example.memorizationgame;
 
+import com.example.memorizationgame.Data.User;
+import com.example.memorizationgame.Data.UserDao;
+
 import java.io.Serializable;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
 public class UerAccount implements Serializable {
 
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
+
+    private int uid = 0;
     private String userName;
     private String passWord;
     //HashMap name_password = new HashMap<>();
@@ -22,6 +35,16 @@ public class UerAccount implements Serializable {
         //could not be empty string
         this.userName = userName;
         this.passWord = passWord;
+    }
+
+    public boolean create(String userName, String passWord){
+        UserDao userDao = App.Companion.getGameDb().userDao();
+        try {
+            userDao.createUser(new User(0,userName,passWord));
+        } catch (SQLException e) {
+
+        }
+
     }
 
     public int gettotalPoints() {

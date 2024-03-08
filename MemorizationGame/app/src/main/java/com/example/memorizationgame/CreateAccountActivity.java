@@ -67,6 +67,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                     if(!password.equals(re_password)){
                         Toast.makeText(CreateAccountActivity.this, "The re-enter password is not correct,please re-enter again", Toast.LENGTH_SHORT).show();
                     }else {
+
                         //go to a new activity
                         Intent intent = new Intent(CreateAccountActivity.this,AccountActivity.class);
                         UerAccount user = new UerAccount(name,password);
