@@ -12,39 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MemorizationGame">
         <service
-            android:name=".MusicService"
+            android:name=".Business.MusicService"
             android:enabled="true"
             android:exported="true"></service>
 
         <activity
-            android:name=".ResultLv2Activity"
+            android:name=".UI.Game.ResultLv2Activity"
             android:exported="false" />
         <activity
-            android:name=".AnswerLv2Activity"
+            android:name=".UI.Game.AnswerLv2Activity"
             android:exported="false" />
         <activity
-            android:name=".GameLv2Activity"
+            android:name=".UI.Game.GameLv2Activity"
             android:exported="false" />
         <activity
-            android:name=".ResultActivity"
+            android:name=".UI.Game.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".AnswerActivity"
+            android:name=".UI.Game.AnswerActivity"
             android:exported="false" />
         <activity
-            android:name=".GameActivity"
+            android:name=".UI.Game.GameActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".UI.Login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".AccountActivity"
+            android:name=".UI.Account.AccountActivity"
             android:exported="false" />
         <activity
-            android:name=".CreateAccountActivity"
+            android:name=".UI.Login.CreateAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".UI.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
