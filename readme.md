@@ -7,7 +7,7 @@
 https://github.com/lu6644/memorizationGame/assets/49087023/6d3c9c33-3db1-4a3c-80ef-8be452b090f5
 
 # Description
-For this project, our goal is to build a game app to improve the user’s memorization ability. As the game starts, our app will randomly show some colored shapes. The user needs to memorize the color and shape and later select the correct one from the given options. We’ll include timing as one of our features. As the user progresses, the difficulty level of the game will gradually increase. The history of playing game will be recorded.
+For this project, our goal is to build a mobile app to improve the user’s memorization ability. As the game starts, our app will randomly show some colored shapes. The user needs to memorize the color and shape and later select the correct one from the given options. We’ll include timing as one of our features. As the user progresses, the difficulty level of the game will gradually increase. The history of playing game will be recorded.
 
 # Team
 - Lu Shen
