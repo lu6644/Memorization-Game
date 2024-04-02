@@ -41,7 +41,7 @@
             android:name=".UI.Account.AccountActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Login.CreateAccountActivity"
+            android:name=".ui.login.CreateAccountActivity"
             android:exported="false" />
         <activity
             android:name=".UI.MainActivity"

@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 
 import com.example.memorizationgame.Business.MusicService;
 import com.example.memorizationgame.R;
-import com.example.memorizationgame.UI.Login.CreateAccountActivity;
 import com.example.memorizationgame.UI.Login.LoginActivity;
+import com.example.memorizationgame.ui.login.CreateAccountActivity;
 
 public class MainActivity extends AppCompatActivity {
 
