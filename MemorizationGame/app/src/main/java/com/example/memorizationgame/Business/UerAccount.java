@@ -10,17 +10,19 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
+import io.vavr.control.Try;
+
 public class UerAccount implements Serializable {
 
-    public int getUid() {
+    public Long getUid() {
         return uid;
     }
 
-    public void setUid(int uid) {
+    public void setUid(Long uid) {
         this.uid = uid;
     }
 
-    private int uid = 0;
+    private Long uid = 0L;
     private String userName;
     private String passWord;
     //HashMap name_password = new HashMap<>();
@@ -38,14 +40,6 @@ public class UerAccount implements Serializable {
         this.passWord = passWord;
     }
 
-    public boolean create(String userName, String passWord){
-        UserDao userDao = App.Companion.getGameDb().userDao();
-        userDao.createUser(new User(0,userName,passWord));
-        //TODO
-        return false;
-
-
-    }
 
     public int gettotalPoints() {
 
